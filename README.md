@@ -1,4 +1,6 @@
 # Equation
+[![CI/CD GitHub Actions](https://github.com/applethecandy/Equation/actions/workflows/python-app.yml/badge.svg)](https://github.com/applethecandy/Equation/actions/workflows/python-app.yml)
+
 ## План тестирования:
 1. Объект тестирования: функция, вычисляющая корни квадратного уравнения.
 2. Необходимо протестировать:
