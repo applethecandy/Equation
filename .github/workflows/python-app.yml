@@ -37,3 +37,10 @@ jobs:
     - name: Test with pytest
       run: |
         pytest testing.py
+    - name: Coveralls
+      run: |
+        pip install coverage-lcov
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
