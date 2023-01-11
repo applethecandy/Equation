@@ -39,7 +39,7 @@ jobs:
         pip install pytest-cov
     - name: Test with pytest
       run: |
-        pytest testing.py --cov-report lcov
+        pytest testing.py --cov-report lcov:./coverage/lcov.info
     - name: Coveralls
       run: |
         pip install coverage-lcov
